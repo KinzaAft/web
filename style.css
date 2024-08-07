@@ -1,0 +1,576 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: border-box;
+
+}
+::selection{
+    color: #0f2454;
+    background-color: #2095AE;
+}
+.main{
+    background-image: url(https://zameenblog.s3.amazonaws.com/blog/wp-content/uploads/2019/11/cover-image-4-2.jpg);
+    background-size: cover;
+    height: 1000px;
+    
+}
+.nav{
+    display: flex;
+    border-bottom: 2px solid #dfdfdf;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+}
+.nav:hover{
+    /* color: #fff; */
+    background-color: #2095AE;
+}
+.logo{
+    float: left;
+    color: #fff;
+    margin: 3vw;
+    font-size: 2.5vw;
+    cursor: pointer;
+}
+.logo:hover{
+    color: #fff;
+    background-color: #0f2454;
+   }
+.nav-2{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 4vw;
+   
+}
+.nav h4{
+    gap: 4vw ;
+    font-size: 1.6vw;
+    color: #fff;
+    margin-right: 3vw;
+}
+.nav h4:hover{
+    color: white;
+    background-color: #0f2454;
+}
+.first{
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    margin-top: 120px;
+    font-size: 1.5vw;
+}
+
+.second{
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 5vw;
+}
+.third{
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+     margin-top: 20px;  
+     font-size: 5vw; 
+ } 
+.span{
+    color: transparent;
+    -webkit-text-stroke: 2px #fff;
+}
+.span:hover{
+    -webkit-text-stroke: 3px #0f2454;
+}
+ /* for dot pattern  */
+ .button-dot{
+   
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.dot {
+    color: #dfdfdf;
+    height: 25px;
+    width: 25px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    justify-content: center;
+  }
+.dot:hover{
+    background-color: #0f2454;
+} 
+  
+
+/* main-second */
+.main-second{
+    height: 700px;
+    width: 100%;
+    background-color: #dfdfdf;
+    display: inline;
+   }
+.main2{
+    border: 2px solid transparent;
+    float: left;
+    height: 600px;
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.user1{
+    color: #2095AE;
+    font-size: 2.5vw ;
+    margin-left: 10px;
+    font-weight: lighter;
+}
+.user2{
+    color: #0f2454;
+    font-size: 4vw;
+}
+.span2{
+    color: #2095AE;
+}
+.user3{
+    color: #0f2454;
+    font-size: 60px;
+}
+.user4{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.user5{
+    font-size: 25px;
+    margin-top: 20px;
+}
+.main3{display: inline;
+}
+
+.img2{
+   
+    background-image: url(image.jpg);
+    background-size: cover;
+    height: 550px;
+    width: 380px;
+    margin-top: 150px;
+    margin-left: 1200px;
+  
+    display: flex;
+    box-shadow: 25px 25px  #0f2454;
+}
+.dot1{
+        color: #dfdfdf;
+        height: 25px;
+        width: 25px;
+        background-color: #2095AE;
+        border-radius: 50%;
+        justify-content: center;
+        float: left;
+        margin-top: 15px;
+}
+.dot-para{
+    margin-top: 15px;
+    margin-left: 50px;
+    font-size: 20px;
+    color:#0f2454;
+    font-weight: bold;
+}
+.dot-para2{
+    margin-top: 15px;
+    margin-left: 50px;
+    font-size: 20px;
+    color:#0f2454;
+    font-weight: bold;
+}
+.main4{
+    background-color: f4f5f8;
+    height: 1200px;
+    width: 100%;
+    float: left;
+}
+.main4-para{
+    color: #2095AE;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.main4-para2{
+    color: #0f2454;
+    font-size: 50px;
+    margin-left: 150px;
+    font-weight: 1000;
+}
+.Tour{
+    color: #2095AE;
+}
+.main-images{
+    display: flex;
+    justify-content: space-evenly;
+}
+.main-img{
+    background-image: url(https://cdn.pixabay.com/photo/2017/05/10/03/32/lahore-2299773_640.jpg);
+    width: 1100px;
+    height: 500px;
+    background-size: cover;
+    transition: transform .2s;
+    margin-left: 50px;
+    margin-top: 50px;
+   
+}
+.main-img:hover{
+    transform: scale(1.1);
+
+}
+.main-img2{
+      width: 600px;
+    background-image: url(https://media.istockphoto.com/id/954979220/photo/long-exposure-faisal-mosque-in-islamabad-pakistan.jpg?s=612x612&w=0&k=20&c=1IgB0Q7XUvBQqN3_f7JnmKYxWOqyfLq866DQW9N_eUs=);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform .2s;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+.main-img2:hover{
+    transform: scale(1.1);
+}
+
+.main-images2{
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.main-img3{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Mahodand_l.jpg/800px-Mahodand_l.jpg);
+    height: 300px;
+    width: 600px;
+    transition: transform .2s;
+    background-size: cover;
+}
+.main-img3:hover{
+    transform: scale(1.1);
+}
+.main-img4{
+    background-image: url(https://guidetopakistan.pk/wp-content/uploads/2024/05/Hunza-5.jpg);
+    height: 300px;
+    width: 600px;
+    transition: transform .2s;
+    background-size: cover;
+}
+.main-img4:hover{
+    transform: scale(1.1);
+}
+.main-img5{
+    background-image: url(https://cf.bstatic.com/xdata/images/hotel/max1024x768/579384212.jpg?k=065c796a670a0aac7547f2996acb3b793e6692f8fb31dc46fb5e549f8bdf10e5&o=&hp=1);
+    height: 300px;
+    width: 600px;
+    background-size: cover;   
+    margin-right: 60px;
+    transition: transform .2s;
+}
+.main-img5:hover{
+    transform: scale(1.1);
+}
+.label{
+    background-color: #2095AE;
+    height: 30px;
+    width: 80px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.label-tag{
+    color: white;
+    text-align: center;
+    margin-top: 2px;
+    font-size: 1vw;
+}
+
+ .star{
+    float: left;
+    color: yellow;
+    margin-top: 320px;
+    margin-left: 20px;
+ }
+ .star:hover{
+    opacity: none;
+ }
+.grey{
+    color: #dfdfdf;
+}
+ i{
+    float: left ;
+ }
+.lahore{
+    float: left;
+    color:#ffff;
+    font-size: 2.5vw;
+    margin-left: 6px;
+    border-bottom: 2px solid #fff;
+}
+#font-awesome{
+    color: white;
+    font-size: 25px;
+    
+}
+.location{
+    margin-left: 10px;
+    color: white;
+    font-size: 25px;
+   
+}
+
+
+.star2{
+    float: left;
+    color: yellow;
+    margin-top: 180px;
+    margin-left: 20px;
+ }
+ .grey2{
+    color: #dfdfdf;
+ }
+ i{
+    float: left ;
+ }
+ .lahore2{
+    float: left;
+    color:#ffff;
+    font-size: 1.5vw;
+    margin-left: 6px;
+    border-bottom: 2px solid #fff;
+}
+#font-awesome2{
+    color: white;
+    font-size: 20px;
+    
+}
+.location2{
+    margin-left: 10px;
+    color: white;
+    font-size: 20px;
+}
+#bars{
+    margin-right: 30px;
+    font-size: 3vw;
+    color: white;
+    display: none;
+}
+footer{
+    background-color: #0f2454;
+    height: 400px;
+    margin-top: 1300px;
+}
+.call-email{
+        display: flex;
+        height: 80px;
+        width: 700px;
+        margin-left: 150px;
+        
+}
+.call{
+    color: white;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+#call2{
+    margin-top: 15px;
+    font-size: 1.5vw;
+}
+.email{
+    color: white;
+    margin-left: 50px;
+    margin-top: 17px;
+    font-size: 20px;
+}
+#email2{
+    margin-top: 15px;
+    font-size: 1.5vw;
+}
+.linkdin{
+    color: white;
+    margin-left: 50px;
+    margin-top: 17px;
+    font-size: 20px;
+}
+#linkdin2{
+    margin-top: 15px;
+    font-size: 1.5vw;
+}
+.github{
+    color: white;
+    margin-left: 50px;
+    margin-top: 17px;
+    font-size: 20px;
+}
+#github{
+    margin-top: 15px;
+    font-size: 1.5vw;
+}
+.about{
+    border: 2px solid transparent;
+    /* height: 400px; */
+    width: 400px;
+    margin-left: 180px;
+    margin-top: 5px;
+}
+.about1{
+    color: #fff;
+}
+.about2{
+    margin-top: 5px;
+    font-size: 25px;
+    color: white;
+}
+.div-icons{
+    background-color: #2095AE;
+    color: white;
+    justify-content: space-between;
+}
+#icons2{
+    color: white;
+    margin-left: 7px;
+}
+.parent{
+    display: flex;
+}
+.quick{
+    border: 2px solid transparent;
+    margin-left: 180px;
+}
+.quick1{
+    color: white;
+}
+ul li{
+    color: white;
+    font-size: 25px;
+    margin-top: 5px;
+}
+.subscribe{
+    border: 2px solid transparent;
+    margin-left: 180px;
+}
+.subscribe1{
+    color: white;
+}
+.subscribe2{
+    color:#fff;
+    margin-top: 10px;
+    font-size: 25px;
+}
+button{
+    height: 40px;
+    width: 120px;
+    color: white;
+    background-color: #2095AE;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
+
+@media (max-width: 600px){
+    #bars{
+        display: block;
+        font-size:5vw ;
+    }
+    .nav-2 h4{
+        display: none;
+    }
+    .nav{
+        height: 100px;
+        color: #fff;
+        background-color: #2095AE;
+    }
+    .logo{
+        font-size: 7vw;
+        margin-top: 30px;
+    }
+    .main{
+        height: 1000px;
+        width: 500px;
+        background-image: url(https://zameenblog.s3.amazonaws.com/blog/wp-content/uploads/2019/11/cover-image-4-2.jpg);
+        background-size: cover;
+    }
+    .first{
+        margin-top: 200px;
+        font-size: 4vw;
+        font-weight: 700;
+        color: #0f2454;
+    }
+    .second{
+        font-size: 7vw;
+    }
+    .third{
+        font-size:7vw ;
+    }
+    .third span{
+        -webkit-text-stroke:2px white;
+    }
+    .button-dot{
+        margin-top:400px ;
+    }
+    .dot{
+        justify-content: space-between;
+    }
+    .user1{
+        margin-top: 100px;
+        font-size: 3vw;
+        margin-left: 0;
+        margin-right:0 ;
+    }
+    .user2{
+        font-size: 8vw;
+        margin-top: 3px;
+        font-weight: bolder;
+    }
+    .user3{
+        font-size: 8vw;
+         font-weight: bolder;
+    }
+    .user4{
+        font-size: 23px;
+    }
+    .dot1{
+        margin-top: 5px ;
+    }
+    .dot-para{
+        margin-top: 5px;
+    }
+    .img2{
+        margin-top:500px;
+        align-items: none;
+        float: left;
+        margin-left: 50px;
+    }
+    .main-images{
+        display: block;
+    }
+    .main-img{
+        height: 550px;
+        width: 400px;
+        display: block;
+        margin-top: 30px;
+    }
+    .main-img2{
+        height: 300px;
+        width: 300px;
+        display: block;
+        margin-top: 20px;
+        margin-left:50px ;
+    }
+    .main3{
+        margin-top: 60px;
+    }
+    footer{
+        margin-top: 3200px;
+    }
+}
